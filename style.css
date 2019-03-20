@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+.center-block {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+  height: 100%;
+  width: 100%;
+
+  padding: 4rem 2rem;
+}
+
 .cell-1 {
   grid-area: cell-1;
 }
@@ -117,12 +128,10 @@
 }
 
 
-
-
-
-
 body {
   display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-auto-rows: minmax(100px, auto);
   grid-template-areas: "cell-1 cell-1 cell-1 cell-1 cell-2 cell-2 cell-2 cell-2 cell-2 cell-2 cell-2 cell-2 cell-3 cell-3 cell-3 cell-3"
                        "cell-1 cell-1 cell-1 cell-1 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4"
                        "cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn"
@@ -142,7 +151,205 @@ body {
                        "cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-s-twitter cell-s-twitter cell-s-odnoklassniki cell-s-odnoklassniki";
 }
 
-.cell {
-  border: 1px solid red;
+
+.cell-1 {
+  background-color: #FFC107;
+}
+.cell-1 div img {
+  height: 50%;
+  width: 50%;
+}
+
+.cell-2 {
+  background-color: #151719;
+}
+
+.cell-3 {
+  background-color: #FFC107;
+}
+.cell-3 {
+  color: #2C2F3C;
+
+  font-family: Arial;
+  font-size: 1.125rem;
+  font-weight: bold;
+
+  line-height: 1.875rem;
+}
+
+.cell-4 {
+  background-color: #ED3B00;
+  padding: 3rem;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 	4rem;
+  font-weight: bold;
+  line-height: 4.4rem;
+}
+
+.cell-telegram_btn {
+  background-color: #00B2ED;
+}
+.cell-telegram_btn a {
+  text-decoration: none;
+}
+.cell-telegram_btn i{
+  margin-right: 1.3rem;
+  color: #FFF7F7;
+  font-size: 4rem;
+  line-height: 2.8125rem;
+}
+.cell-telegram_btn span {
+  color: #FFF7F7;
+  font-family: Arial;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 2.8125rem;
+}
+
+
+.cell-viber_btn {
+  background-color: #7861C5;
+}
+.cell-viber_btn a {
+  text-decoration: none;
+}
+.cell-viber_btn i{
+  margin-right: 1.3rem;
+  color: #FFF7F7;
+  font-size: 4rem;
+  line-height: 2.8125rem;
+}
+.cell-viber_btn span {
+  color: #FFF7F7;
+  font-family: Arial;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 2.8125rem;
+}
+
+
+.cell-5 {
+	background-color: #FFFFFF;
+}
+
+.cell-6 {
+  background-color: #EAEAEA;
+}
+
+.cell-7 {
+  background-color: #EAEAEA;
+}
+
+.cell-8 {
+	background-color: #FFFFFF;
+}
+
+.cell-9 {
+  background-color: #FFC107;
+}
+
+.cell-10 {
+  background-color: #FFFFFF;
+}
+
+.cell-11 {
+  background-color: #EAEAEA;
+}
+
+.cell-12 {
+  background-color: #ED3B00;
+}
+
+.cell-13 {
+  background-color: #FFFFFF;
+}
+
+.cell-14 {
+  background-color: #FFFFFF;
+}
+
+.cell-15 {
+  background-color: #FFFFFF;
+}
+
+.cell-16 {
+  background-color: #151719;
+}
+
+.cell-17 {
+  background-color: #ED3B00;
+}
+
+.cell-18 {
+  background-color: #FFC107;
+}
+
+.cell-19 {
+  background-color: #FFC107;
+}
+
+.cell-20 {
+  background-color: #FFFFFF;
+}
+
+.cell-21 {
+  background-color: #FFFFFF;
+}
+
+.cell-22 {
+  background-color: #D8D8D8;
+}
+
+.cell-23 {
+  background-color: #EAEAEA;
+}
+
+.cell-24 {
+  background-color: #ED3B00;
+}
+
+.cell-25 {
+  background-color: #FFFFFF;
+}
+
+.cell-26 {
+  background-color: #EAEAEA;
+}
+
+.cell-27 {
+  background-color: #EAEAEA;
+}
+
+.cell-28 {
+  background-color: #FFFFFF;
+}
+
+.cell-29 {
+  background-color: #FFFFFF;
+}
+
+.cell-30 {
+  background-color: #FFC107;
+}
+
+.cell-31 {
+  background-color: #EAEAEA;
+}
+
+.cell-s-facebook {
+  background-color: #3A5998;
+}
+
+.cell-s-vk {
+  background-color: #4C75A3;
+}
+
+.cell-s-twitter {
+  background-color: #1EA0F1;
+}
+
+.cell-s-odnoklassniki {
+  background-color: #F7921E;
 }
 
