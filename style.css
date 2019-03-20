@@ -5,6 +5,7 @@
 }
 
 .center-block {
+
   display: grid;
   align-items: center;
   justify-items: center;
@@ -163,6 +164,33 @@ body {
 .cell-2 {
   background-color: #151719;
 }
+.cell-2 div {
+  display: inline-block;
+}
+.cell-2 .full-line {
+  width: 100%;
+  height: 8%;
+
+  margin-top: 2rem;
+
+  background-color: #FFC107;
+}
+.cell-2 .line-points{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: center;
+
+  margin-top: 1.5rem;
+}
+.cell-2 .line-points div{
+  width: 15%;
+  height: 1.3rem;
+  background-color: #FFC107;
+}
+
 
 .cell-3 {
   background-color: #FFC107;
@@ -189,6 +217,13 @@ body {
 
 .cell-telegram_btn {
   background-color: #00B2ED;
+
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease; 
+  -o-transition: .3s ease;
+}
+.cell-telegram_btn:hover {
+  filter: brightness(80%);
 }
 .cell-telegram_btn a {
   text-decoration: none;
@@ -197,19 +232,26 @@ body {
   margin-right: 1.3rem;
   color: #FFF7F7;
   font-size: 4rem;
-  line-height: 2.8125rem;
+  vertical-align: middle;
 }
 .cell-telegram_btn span {
   color: #FFF7F7;
   font-family: Arial;
   font-size: 2.5rem;
   font-weight: bold;
-  line-height: 2.8125rem;
+  vertical-align: middle;
 }
 
 
 .cell-viber_btn {
   background-color: #7861C5;
+
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease; 
+  -o-transition: .3s ease;
+}
+.cell-viber_btn:hover {
+  filter: brightness(80%);
 }
 .cell-viber_btn a {
   text-decoration: none;
@@ -218,14 +260,14 @@ body {
   margin-right: 1.3rem;
   color: #FFF7F7;
   font-size: 4rem;
-  line-height: 2.8125rem;
+  vertical-align: middle;
 }
 .cell-viber_btn span {
   color: #FFF7F7;
   font-family: Arial;
   font-size: 2.5rem;
   font-weight: bold;
-  line-height: 2.8125rem;
+  vertical-align: middle;
 }
 
 
