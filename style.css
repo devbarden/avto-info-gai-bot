@@ -274,14 +274,62 @@ body {
 .cell-5 {
 	background-color: #FFFFFF;
 }
+.circle-container {
+  width: 100%;
+  height: 100%;
+
+  border: 1.5rem solid rgb(255, 0, 0);
+  border-radius: 50%;
+
+  color: #151719;
+  text-align: center;
+
+  font-size: 16rem;
+  font-family: Arial;
+  font-weight: bold;
+
+  padding-top: 2rem;
+}
 
 .cell-6 {
   background-color: #EAEAEA;
+}
+.cell-6 p {
+  width: 70%;
+  margin: 50% auto 10%;
+
+  color: #151719;
+  font-family: Arial;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .cell-7 {
   background-color: #EAEAEA;
 }
+.cell-7 p {
+  width: 70%;
+
+  margin: 10% auto 0;
+
+  color: #151719;
+  font-family: Arial;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.cell-7 a {
+  display: block;
+  width: 70%;
+
+  margin: 2% auto 0;
+
+  color: #003CED;
+
+  font-family: Arial;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
 
 .cell-8 {
 	background-color: #FFFFFF;
@@ -290,21 +338,80 @@ body {
 .cell-9 {
   background-color: #FFC107;
 }
+.cell-9 p {
+  transform: rotate(-90deg);
+  color: #151719;
+  font-family: Arial;
+  font-size: 10em;
+  font-weight: bold;
+  margin-top: 20rem;
+}
 
 .cell-10 {
   background-color: #FFFFFF;
+}
+.cell-10 p {
+  width: 70%;
+
+  margin: 20% auto 0;
+
+  color: #151719;
+  font-family: Arial;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.cell-10 a {
+  display: block;
+  width: 70%;
+
+  margin: 2% auto 0;
+
+  color: #003CED;
+
+  font-family: Arial;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
 }
 
 .cell-11 {
   background-color: #EAEAEA;
 }
+.cell-11 p {
+  width: 70%;
+  margin: 50% auto 10%;
+
+  color: #151719;
+  font-family: Arial;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
 .cell-12 {
   background-color: #ED3B00;
 }
+.cell-12 p {
+  width: 70%;
+  margin: 10% auto;
+
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 
 .cell-13 {
   background-color: #FFFFFF;
+}
+.cell-13 p {
+  color: #ED3B00;
+  text-align: center;
+
+  font-size: 8rem;
+  font-family: Arial;
+  font-weight: bold;
+
+  padding-top: 2rem;
 }
 
 .cell-14 {
@@ -330,9 +437,28 @@ body {
 .cell-19 {
   background-color: #FFC107;
 }
+.cell-19 p {
+  width: 70%;
+  margin: 10% auto;
+
+  color: #151719;
+  font-family: Arial;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
 .cell-20 {
   background-color: #FFFFFF;
+}
+.cell-20 p {
+  color: #FFC107;
+  text-align: center;
+
+  font-size: 8rem;
+  font-family: Arial;
+  font-weight: bold;
+
+  padding-top: 2rem;
 }
 
 .cell-21 {
