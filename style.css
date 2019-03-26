@@ -397,6 +397,7 @@ body {
 
 .cell-11 {
   background-color: #EAEAEA;
+
   display: flex;
   align-items: flex-end;
 }
@@ -414,87 +415,159 @@ body {
 
 .cell-12 {
   background-color: #ED3B00;
+
+  display: flex;
+  align-items: center;
 }
 .cell-12 p {
-  width: 70%;
-  margin: 10% auto;
+  width: 80%;
+  margin: 5% auto;
 
   color: #ffffff;
   font-family: Arial;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 
 .cell-13 {
   background-color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
 }
 .cell-13 p {
   color: #ED3B00;
-  text-align: center;
 
   font-size: 8rem;
   font-family: Arial;
   font-weight: bold;
 
-  padding-top: 2rem;
+  margin: 0 auto;
 }
 
 .cell-14 {
-  background-color: #FFFFFF;
+  background-color: rgb(163, 99, 99);
 }
 
 .cell-15 {
   background-color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
 }
+.cell-15 div {
+  width: 80%;
+  margin: 0 auto;
+}
+.cell-15 div p {
+  color: #151719;
+  font-family: "PT Sans";
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+
+  margin: 1rem 0;
+}
+
 
 .cell-16 {
   background-color: #151719;
+
+  min-height: 80em;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
+.cell-16 p {
+  transform: rotate(-90deg);
+
+  color: #ffffff;
+
+  padding-right: 2.5em;
+
+  font-family: Helvetica;
+  font-size: 8.5rem;
+  font-weight: bold;
+}
+
 
 .cell-17 {
   background-color: #ED3B00;
+
+  display: flex;
+  align-items: flex-end;
+}
+.cell-17 img {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .cell-18 {
   background-color: #FFC107;
+
+  display: flex;
+  align-items: flex-start;
+}
+.cell-18 img {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .cell-19 {
   background-color: #FFC107;
+
+  display: flex;
+  align-items: center;
 }
 .cell-19 p {
-  width: 70%;
-  margin: 10% auto;
+  width: 80%;
+  margin: 5% auto;
 
   color: #151719;
   font-family: Arial;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .cell-20 {
   background-color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
 }
 .cell-20 p {
   color: #FFC107;
-  text-align: center;
 
   font-size: 8rem;
   font-family: Arial;
   font-weight: bold;
 
-  padding-top: 2rem;
+  margin: 0 auto;
 }
 
 .cell-21 {
-  background-color: #FFFFFF;
+  background-color: rgb(163, 99, 99);
 }
 
 .cell-22 {
   background-color: #D8D8D8;
-}
 
+  display: flex;
+  align-items: center;
+}
+.cell-22 div {
+  width: 80%;
+  margin: 0 auto;
+}
+.cell-22 div p {
+  color: #151719;
+  font-family: "PT Sans";
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+
+  margin: 1rem 0;
+}
 .cell-23 {
   background-color: #EAEAEA;
 }
