@@ -276,62 +276,72 @@ body {
 
 
 .cell-5 {
-	background-color: #FFFFFF;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 100%;
 }
 .circle-container {
   width: 100%;
   height: 100%;
 
-  border: 1.5rem solid rgb(255, 0, 0);
+  border: 1rem solid rgb(255, 0, 0);
   border-radius: 50%;
 
   color: #151719;
-  text-align: center;
 
-  font-size: 16rem;
+  font-size: 12rem;
   font-family: Arial;
   font-weight: bold;
 
-  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cell-6 {
   background-color: #EAEAEA;
+
+  display: flex;
+  align-items: flex-end;
 }
 .cell-6 p {
   width: 70%;
-  margin: 50% auto 10%;
+
+  margin: 2rem auto;
 
   color: #151719;
   font-family: Arial;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: bold;
+  line-height: 1.8rem;
 }
 
 .cell-7 {
   background-color: #EAEAEA;
+
+  display: flex;
+  align-items: center;
 }
 .cell-7 p {
-  width: 70%;
+  width: 80%;
 
-  margin: 10% auto 0;
+  margin: 0 auto;
 
   color: #151719;
   font-family: Arial;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
-.cell-7 a {
+.cell-7 p a {
   display: block;
   width: 70%;
 
-  margin: 2% auto 0;
+  margin-top: 0.5rem;
 
   color: #003CED;
 
   font-family: Arial;
-  font-size: 1.5rem;
-  line-height: 1.75rem;
+  font-size: 1rem;
 }
 
 
@@ -341,53 +351,65 @@ body {
 
 .cell-9 {
   background-color: #FFC107;
+  min-height: 40em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .cell-9 p {
   transform: rotate(-90deg);
+
   color: #151719;
+
   font-family: Arial;
-  font-size: 10em;
+  font-size: 8.5rem;
   font-weight: bold;
-  margin-top: 20rem;
 }
 
 .cell-10 {
   background-color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
 }
 .cell-10 p {
-  width: 70%;
+  width: 80%;
 
-  margin: 20% auto 0;
+  margin: 0 auto;
 
   color: #151719;
   font-family: Arial;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
-.cell-10 a {
+.cell-10 p a {
   display: block;
   width: 70%;
 
-  margin: 2% auto 0;
+  margin-top: 0.5rem;
 
   color: #003CED;
 
   font-family: Arial;
-  font-size: 1.5rem;
-  line-height: 1.75rem;
+  font-size: 1rem;
 }
 
 .cell-11 {
   background-color: #EAEAEA;
+  display: flex;
+  align-items: flex-end;
 }
 .cell-11 p {
   width: 70%;
-  margin: 50% auto 10%;
+
+  margin: 2rem auto;
 
   color: #151719;
   font-family: Arial;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: bold;
+  line-height: 1.8rem;
 }
 
 .cell-12 {
