@@ -13,7 +13,7 @@
   height: 100%;
   width: 100%;
 
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
 }
 
 .cell-1 {
@@ -157,21 +157,22 @@ body {
   background-color: #FFC107;
 }
 .cell-1 div img {
-  height: 50%;
-  width: 50%;
+  height: 90%;
+  width: 90%;
 }
 
 .cell-2 {
   background-color: #151719;
+
 }
 .cell-2 div {
   display: inline-block;
 }
 .cell-2 .full-line {
   width: 100%;
-  height: 8%;
+  height: 6%;
 
-  margin-top: 2rem;
+  margin-top: 4rem;
 
   background-color: #FFC107;
 }
@@ -179,15 +180,15 @@ body {
   display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: baseline;
 	align-content: center;
 
-  margin-top: 1.5rem;
+  margin-top: 1.75rem;
 }
 .cell-2 .line-points div{
-  width: 15%;
-  height: 1.3rem;
+  width: 13%;
+  height: 1.25rem;
   background-color: #FFC107;
 }
 
@@ -199,15 +200,18 @@ body {
   color: #2C2F3C;
 
   font-family: Arial;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   font-weight: bold;
 
-  line-height: 1.875rem;
+  line-height: 2rem;
+}
+.cell-3 div {
+  padding: 4.5rem 2rem;
 }
 
 .cell-4 {
   background-color: #ED3B00;
-  padding: 3rem;
+  padding: 3rem 5rem;
   color: #FFFFFF;
   font-family: Arial;
   font-size: 	4rem;
