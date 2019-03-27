@@ -13,7 +13,7 @@
   height: 100%;
   width: 100%;
 
-  padding: 3rem 2rem;
+  padding: 1rem 2rem;
 }
 
 .cell-1 {
@@ -128,39 +128,100 @@
   grid-area: cell-s-odnoklassniki;
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
 
 body {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-auto-rows: minmax(100px, auto);
-  grid-template-areas: "cell-1 cell-1 cell-1 cell-1 cell-2 cell-2 cell-2 cell-2 cell-2 cell-2 cell-2 cell-2 cell-3 cell-3 cell-3 cell-3"
-                      "cell-1 cell-1 cell-1 cell-1 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4 cell-4"
-                      "cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn"
-                      "cell-5 cell-5 cell-5 cell-5 cell-6 cell-6 cell-6 cell-6 cell-9 cell-9 cell-9 cell-9 cell-10 cell-10 cell-10 cell-10"
-                      "cell-7 cell-7 cell-7 cell-7 cell-8 cell-8 cell-8 cell-8 cell-9 cell-9 cell-9 cell-9 cell-11 cell-11 cell-11 cell-11"
-                      "cell-12 cell-12 cell-12 cell-12 cell-13 cell-13 cell-16 cell-16 cell-16 cell-16 cell-17 cell-17 cell-17 cell-17 cell-17 cell-17"
-                      "cell-14 cell-14 cell-14 cell-14 cell-14 cell-14 cell-16 cell-16 cell-16 cell-16 cell-17 cell-17 cell-17 cell-17 cell-17 cell-17"
-                      "cell-15 cell-15 cell-15 cell-15 cell-15 cell-15 cell-16 cell-16 cell-16 cell-16 cell-17 cell-17 cell-17 cell-17 cell-17 cell-17"
-                      "cell-18 cell-18 cell-18 cell-18 cell-18 cell-18 cell-16 cell-16 cell-16 cell-16 cell-19 cell-19 cell-19 cell-19 cell-20 cell-20"
-                      "cell-18 cell-18 cell-18 cell-18 cell-18 cell-18 cell-16 cell-16 cell-16 cell-16 cell-21 cell-21 cell-21 cell-21 cell-21 cell-21"
-                      "cell-18 cell-18 cell-18 cell-18 cell-18 cell-18 cell-16 cell-16 cell-16 cell-16 cell-22 cell-22 cell-22 cell-22 cell-22 cell-22"
-                      "cell-23 cell-23 cell-23 cell-23 cell-23 cell-23 cell-23 cell-23 cell-23 cell-23 cell-23 cell-23 cell-23 cell-23 cell-23 cell-23"
-                      "cell-24 cell-24 cell-24 cell-24 cell-24 cell-24 cell-24 cell-24 cell-25 cell-25 cell-25 cell-25 cell-26 cell-26 cell-26 cell-26"
-                      "cell-24 cell-24 cell-24 cell-24 cell-24 cell-24 cell-24 cell-24 cell-27 cell-27 cell-27 cell-27 cell-28 cell-28 cell-28 cell-28"
-                      "cell-29 cell-29 cell-29 cell-29 cell-29 cell-29 cell-30 cell-30 cell-30 cell-30 cell-30 cell-30 cell-30 cell-30 cell-30 cell-30"
-                      "cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-s-facebook cell-s-facebook cell-s-vk cell-s-vk"
-                      "cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-31 cell-s-twitter cell-s-twitter cell-s-odnoklassniki cell-s-odnoklassniki";
+  grid-template-areas: "cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1"
+                       "cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3"
+                       "cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn";
 }
 
+
+.cell {
+  display: none;
+}
 
 .cell-1 {
   background-color: #FFC107;
-}
-.cell-1 div img {
-  height: 90%;
-  width: 90%;
+  display: block;
 }
 
+
+.cell-3 {
+  background-color: #FFC107;
+  display: block;
+}
+.cell-3 {
+  color: #2C2F3C;
+
+  font-family: Arial;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  line-height: 2rem;
+}
+.cell-3 div {
+  padding: 1rem 2rem;
+}
+
+
+.cell-telegram_btn {
+  background-color: #00B2ED;
+
+  display: block;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease; 
+  -o-transition: .3s ease;
+}
+.cell-telegram_btn:hover {
+  filter: brightness(80%);
+}
+.cell-telegram_btn a {
+  text-decoration: none;
+}
+.cell-telegram_btn i{
+  margin-right: 1.3rem;
+  color: #FFF7F7;
+  font-size: 4rem;
+  vertical-align: middle;
+}
+.cell-telegram_btn span {
+  display: none;
+}
+
+
+.cell-viber_btn {
+  background-color: #7861C5;
+
+  display: block;
+
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease; 
+  -o-transition: .3s ease;
+}
+.cell-viber_btn:hover {
+  filter: brightness(80%);
+}
+.cell-viber_btn a {
+  text-decoration: none;
+}
+.cell-viber_btn i{
+  margin-right: 1.3rem;
+  color: #FFF7F7;
+  font-size: 4rem;
+  vertical-align: middle;
+}
+.cell-viber_btn span {
+  display: none;
+}
+
+/* 
 .cell-2 {
   background-color: #151719;
 
@@ -193,21 +254,7 @@ body {
 }
 
 
-.cell-3 {
-  background-color: #FFC107;
-}
-.cell-3 {
-  color: #2C2F3C;
 
-  font-family: Arial;
-  font-size: 1.2rem;
-  font-weight: bold;
-
-  line-height: 2rem;
-}
-.cell-3 div {
-  padding: 4.5rem 2rem;
-}
 
 .cell-4 {
   background-color: #ED3B00;
@@ -217,61 +264,6 @@ body {
   font-size: 	4rem;
   font-weight: bold;
   line-height: 4.4rem;
-}
-
-.cell-telegram_btn {
-  background-color: #00B2ED;
-
-  -webkit-transition: .3s ease;
-  -moz-transition: .3s ease; 
-  -o-transition: .3s ease;
-}
-.cell-telegram_btn:hover {
-  filter: brightness(80%);
-}
-.cell-telegram_btn a {
-  text-decoration: none;
-}
-.cell-telegram_btn i{
-  margin-right: 1.3rem;
-  color: #FFF7F7;
-  font-size: 4rem;
-  vertical-align: middle;
-}
-.cell-telegram_btn span {
-  color: #FFF7F7;
-  font-family: Arial;
-  font-size: 2.5rem;
-  font-weight: bold;
-  vertical-align: middle;
-}
-
-
-.cell-viber_btn {
-  background-color: #7861C5;
-
-  -webkit-transition: .3s ease;
-  -moz-transition: .3s ease; 
-  -o-transition: .3s ease;
-}
-.cell-viber_btn:hover {
-  filter: brightness(80%);
-}
-.cell-viber_btn a {
-  text-decoration: none;
-}
-.cell-viber_btn i{
-  margin-right: 1.3rem;
-  color: #FFF7F7;
-  font-size: 4rem;
-  vertical-align: middle;
-}
-.cell-viber_btn span {
-  color: #FFF7F7;
-  font-family: Arial;
-  font-size: 2.5rem;
-  font-weight: bold;
-  vertical-align: middle;
 }
 
 
@@ -807,4 +799,4 @@ body {
 .cell-s-twitter:hover,
 .cell-s-odnoklassniki:hover {
   filter: brightness(80%);
-}
+} */

@@ -1,2 +1,4 @@
-@import url("/css/_small-screen.css") (min-width: 200px);
-@import url("/css/_large-screen.css") (min-width: 700px);
+@import './normolize.css';
+
+/* @import url("/css/small-screen.css") (min-width: 200px); */
+@import url("/css/large-screen.css") (min-width: 700px);
