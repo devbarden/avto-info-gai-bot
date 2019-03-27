@@ -133,9 +133,9 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(100px, auto);
-  grid-template-areas: "cell-1 cell-1 cell-1 cell-1"
-                       "cell-3 cell-3 cell-3 cell-3"
-                       "cell-telegram_btn cell-telegram_btn cell-viber_btn cell-viber_btn";
+  grid-template-areas: "cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1 cell-1"
+                       "cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3 cell-3"
+                       "cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-telegram_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn cell-viber_btn";
 }
 
 
@@ -145,13 +145,13 @@ body {
 
 .cell-1 {
   background-color: #FFC107;
-  display: flex;
+  display: block;
 }
 
 
 .cell-3 {
   background-color: #FFC107;
-  display: flex;
+  display: block;
 }
 .cell-3 {
   color: #2C2F3C;
@@ -170,7 +170,7 @@ body {
 .cell-telegram_btn {
   background-color: #00B2ED;
 
-  display: flex;
+  display: block;
   -webkit-transition: .3s ease;
   -moz-transition: .3s ease; 
   -o-transition: .3s ease;
@@ -199,7 +199,7 @@ body {
 .cell-viber_btn {
   background-color: #7861C5;
 
-  display: flex;
+  display: block;
 
   -webkit-transition: .3s ease;
   -moz-transition: .3s ease; 
