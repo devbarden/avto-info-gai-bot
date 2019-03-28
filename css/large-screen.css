@@ -445,9 +445,13 @@ body {
 }
 
 .cell-14 {
-  background-color: rgb(163, 99, 99);
+  background-color: rgb(255, 255, 255);
 
   min-height: 10em;
+
+  background-image: url('../assets/lines.png');
+  background-repeat: repeat-x;
+  background-size: cover;
 }
 
 .cell-15 {
@@ -549,9 +553,13 @@ body {
 }
 
 .cell-21 {
-  background-color: rgb(163, 99, 99);
+  background-color: rgb(255, 255, 255);
 
   min-height: 10em;
+
+  background-image: url('../assets/lines.png');
+  background-repeat: repeat-x;
+  background-size: cover;
 }
 
 .cell-22 {
