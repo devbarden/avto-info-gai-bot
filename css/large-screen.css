@@ -349,6 +349,13 @@ body {
 
 .cell-9 {
   background-color: #FFC107;
+
+  background-image: url(../assets/why.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: -5rem;
+  background-position-y: bottom;
+
   min-height: 40em;
 
   display: flex;
@@ -364,6 +371,13 @@ body {
   font-size: 8.5rem;
   font-weight: bold;
 }
+
+/* .cell-9 img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+} */
+
 
 .cell-10 {
   background-color: #FFFFFF;
@@ -484,6 +498,14 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+
+
+  background-image: url(../assets/why2.svg);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position-x: center;
+  background-position-y: bottom;
+
 }
 .cell-16 p {
   transform: rotate(-90deg);
@@ -595,6 +617,13 @@ body {
 
   display: flex;
   align-items: center;
+
+
+  background-image: url(../assets/why3.svg);
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position-x: -1rem;
+  background-position-y: center;
 }
 .cell-24 p {
   width: 70%;
