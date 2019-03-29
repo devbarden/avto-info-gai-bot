@@ -9,81 +9,58 @@
   height: 100%;
   width: 100%;
 
-  padding: 3rem 2rem;
+  padding: 1rem 2rem;
+}
+
+.cell {
+  display: none;
 }
 
 .cell-1 {
   background-color: #FFC107;
+
+  display: flex;
 }
 .cell-1 img {
-  height: 90%;
-  width: 90%;
+  height: 80%;
+  width: 80%;
 
-  padding: 3rem 2rem;
-}
-
-.cell-2 {
-  background-color: #151719;
-}
-.cell-2 div {
-  display: inline-block;
-}
-.cell-2 .full-line {
-  width: 100%;
-  height: 6%;
-
-  margin-top: 4rem;
-
-  background-color: #FFC107;
-}
-.cell-2 .line-points {
-  display: flex;
-
-  flex-direction: row;
-  flex-wrap: nowrap;
-
-  justify-content: space-evenly;
-  align-items: baseline;
-  align-content: center;
-
-  margin-top: 1.75rem;
-}
-.cell-2 .line-points div {
-  width: 13%;
-  height: 1.25rem;
-
-  background-color: #FFC107;
+  padding: 1rem 2rem 0;
 }
 
 .cell-3 {
+  display: flex;
+
   background-color: #FFC107;
 
   color: #2C2F3C;
 
   font-family: Arial;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 
-  line-height: 2rem;
+  line-height: 1.8rem;
 }
 .cell-3 p {
-  padding: 4.5rem 2rem;
+  padding: 0 2rem 1rem;
 }
 
 .cell-4 {
-  padding: 3rem 5rem;
+  display: block;
+  padding: 1rem 2rem;
 
   background-color: #ED3B00;
 
   color: #FFFFFF;
 
   font-family: Arial;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
-  line-height: 4.4rem;
+  line-height: 2.5rem;
 }
 
 .cell-telegram_btn {
+  display: block;
   background-color: #00B2ED;
 
   -webkit-transition: .3s ease;
@@ -97,15 +74,14 @@
   text-decoration: none;
 }
 .cell-telegram_btn i {
-  margin-right: 1.3rem;
-
   vertical-align: middle;
 
   color: #FFF7F7;
 
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .cell-telegram_btn span {
+  display: none;
   vertical-align: middle;
 
   color: #FFF7F7;
@@ -117,6 +93,7 @@
 
 
 .cell-viber_btn {
+  display: block;
   background-color: #7861C5;
 
   -webkit-transition: .3s ease;
@@ -130,15 +107,13 @@
   text-decoration: none;
 }
 .cell-viber_btn i {
-  margin-right: 1.3rem;
-
   vertical-align: middle;
 
   color: #FFF7F7;
-  font-size: 4rem;
-
+  font-size: 2rem;
 }
 .cell-viber_btn span {
+  display: none;
   vertical-align: middle;
 
   color: #FFF7F7;
@@ -149,6 +124,7 @@
 }
 
 .cell-5 {
+  display: block;
   width: 100%;
   height: 100%;
 
@@ -157,18 +133,23 @@
 .cell-5 img {
   width: 100%;
   height: 100%;
+
+  margin: 0.2rem 0;
 }
 
 .cell-6 {
+
   background-color: #EAEAEA;
 
   display: flex;
   align-items: flex-end;
+
+  display: flex;
 }
 .cell-6 p {
   width: 70%;
 
-  margin: 2rem auto;
+  margin: 2rem 2rem 1rem;
 
   color: #151719;
 
@@ -179,10 +160,11 @@
 }
 
 .cell-7 {
+  display: flex;
   background-color: #EAEAEA;
 }
 .cell-7 p {
-  width: 80%;
+  margin: 1rem 2rem 1rem;
 
   color: #151719;
 
@@ -194,7 +176,7 @@
   display: block;
   width: 70%;
 
-  margin-top: 0.5rem;
+  margin: 0.5rem 0;
 
   color: #003CED;
 
@@ -203,6 +185,7 @@
 }
 
 .cell-8 {
+  display: block;
   background-color: #FFFFFF;
 
   width: 100%;
@@ -214,7 +197,8 @@
 }
 
 .cell-9 {
-  min-height: 40em;
+  display: flex;
+  min-height: 35em;
 
   background-image: url(../assets/why.svg);
   background-repeat: no-repeat;
@@ -235,10 +219,11 @@
 }
 
 .cell-10 {
-  background-color: #FFFFFF;
+  display: flex;
+  background-color: #EAEAEA;
 }
 .cell-10 p {
-  width: 80%;
+  margin: 1rem 2rem 1rem;
 
   color: #151719;
 
@@ -248,9 +233,8 @@
 }
 .cell-10 p a {
   display: block;
-  width: 70%;
 
-  margin-top: 0.5rem;
+  margin: 0.5rem 0;
 
   color: #003CED;
 
@@ -267,7 +251,7 @@
 .cell-11 p {
   width: 70%;
 
-  margin: 2rem auto;
+  margin: 2rem 2rem 1rem;
 
   color: #151719;
 
@@ -282,6 +266,7 @@
   align-items: center;
 
   background-color: #ED3B00;
+  display: none;
 }
 .cell-12 p {
   width: 80%;
@@ -312,6 +297,7 @@
 }
 
 .cell-14 {
+  display: block;
   min-height: 10em;
 
   background-image: url('../assets/lines.png');
@@ -328,6 +314,7 @@
   align-items: center;
 
   background-color: #FFFFFF;
+  display: none;
 }
 .cell-15 div {
   width: 80%;
@@ -344,7 +331,7 @@
 }
 
 .cell-16 {
-  min-height: 80em;
+  min-height: 35em;
 
   display: flex;
   align-items: flex-start;
@@ -352,14 +339,14 @@
 
   background-image: url(../assets/why2.svg);
   background-repeat: no-repeat;
-  background-size: 200%;
-  background-position-x: center;
+  background-size: 100%;
+  background-position-x: 6rem;
   background-position-y: bottom;
 
   background-color: #151719;
 }
 .cell-16 p {
-  padding-right: 0.5em;
+  padding-right: 0;
 
   transform: rotate(-90deg);
 
@@ -375,6 +362,7 @@
   align-items: flex-end;
 
   background-color: #ED3B00;
+  display: none;
 }
 .cell-17 img {
   width: 68%;
@@ -386,6 +374,7 @@
   align-items: flex-start;
 
   background-color: #FFC107;
+  display: none;
 }
 .cell-18 img {
   width: 68%;
@@ -397,6 +386,8 @@
   align-items: center;
 
   background-color: #FFC107;
+
+  display: none;
 }
 .cell-19 p {
   width: 80%;
@@ -414,6 +405,8 @@
   align-items: center;
 
   background-color: #FFFFFF;
+
+  display: none;
 }
 .cell-20 p {
   margin: 0 auto;
@@ -433,12 +426,16 @@
   background-size: cover;
 
   background-color: rgb(255, 255, 255);
+
+  display: none;
 }
 
 .cell-22 {
   min-height: 20em;
 
   background-color: #D8D8D8;
+
+  display: none;
 }
 .cell-22 div {
   width: 80%;
@@ -463,6 +460,8 @@
   background-size: 20%;
 
   background-color: #EAEAEA;
+
+  display: none;
 }
 
 .cell-24 {
@@ -475,6 +474,8 @@
   background-position-y: center;
 
   background-color: #ED3B00;
+
+  display: none;
 }
 .cell-24 p {
   width: 70%;
@@ -488,6 +489,7 @@
 
 .cell-25 {
   background-color: #FFFFFF;
+  display: none;
 }
 .cell-25 p {
   width: 70%;
@@ -505,6 +507,7 @@
   height: 100%;
 
   background-color: #EAEAEA;
+  display: none;
 }
 .cell-26 .circle {
   width: 100%;
@@ -513,6 +516,8 @@
   border-radius: 50%;
 
   background-color: #ffffff;
+
+  display: none;
 }
 
 
@@ -534,6 +539,7 @@
 
 .cell-28 {
   background-color: #FFFFFF;
+  display: none;
 }
 .cell-28 p {
   width: 70%;
@@ -547,6 +553,7 @@
 
 .cell-29 {
   background-color: #FFFFFF;
+  display: none;
 }
 .cell-29 p {
   width: 80%;
@@ -568,6 +575,8 @@
   background-position-y: center;
 
   background-color: #FFC107;
+
+  display: none;
 }
 .cell-30 p {
   width: 70%;
@@ -583,6 +592,7 @@
   min-height: 20em;
 
   background-color: #EAEAEA;
+  display: none;
 }
 .cell-31 p {
   width: 90%;
