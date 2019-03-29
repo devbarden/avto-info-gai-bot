@@ -266,7 +266,6 @@
   align-items: center;
 
   background-color: #ED3B00;
-  display: none;
 }
 .cell-12 p {
   width: 80%;
@@ -275,7 +274,7 @@
   color: #ffffff;
 
   font-family: Arial;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -314,7 +313,6 @@
   align-items: center;
 
   background-color: #FFFFFF;
-  display: none;
 }
 .cell-15 div {
   width: 80%;
@@ -362,23 +360,21 @@
   align-items: flex-end;
 
   background-color: #ED3B00;
-  display: none;
 }
 .cell-17 img {
   width: 68%;
-  margin: 0 auto;
+  margin: 3rem auto 0;
 }
 
 .cell-18 {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
 
   background-color: #FFC107;
-  display: none;
 }
 .cell-18 img {
   width: 68%;
-  margin: 0 auto;
+  margin: 3rem auto 0;
 }
 
 .cell-19 {
@@ -386,17 +382,15 @@
   align-items: center;
 
   background-color: #FFC107;
-
-  display: none;
 }
 .cell-19 p {
   width: 80%;
-  margin: 5% auto;
+  margin: 2rem auto;
 
   color: #151719;
 
   font-family: Arial;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
@@ -405,8 +399,6 @@
   align-items: center;
 
   background-color: #FFFFFF;
-
-  display: none;
 }
 .cell-20 p {
   margin: 0 auto;
@@ -419,6 +411,7 @@
 }
 
 .cell-21 {
+  display: block;
   min-height: 10em;
 
   background-image: url('../assets/lines.png');
@@ -426,16 +419,13 @@
   background-size: cover;
 
   background-color: rgb(255, 255, 255);
-
-  display: none;
 }
 
 .cell-22 {
+  display: flex;
   min-height: 20em;
 
   background-color: #D8D8D8;
-
-  display: none;
 }
 .cell-22 div {
   width: 80%;
@@ -465,7 +455,7 @@
 }
 
 .cell-24 {
-  min-height: 40em;
+  min-height: 20em;
 
   background-image: url(../assets/why3.svg);
   background-repeat: no-repeat;
@@ -475,7 +465,7 @@
 
   background-color: #ED3B00;
 
-  display: none;
+  display: flex;
 }
 .cell-24 p {
   width: 70%;
@@ -483,16 +473,18 @@
   color: #FFFFFF;
 
   font-family: Arial;
-  font-size: 5.625rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 .cell-25 {
   background-color: #FFFFFF;
-  display: none;
+  display: flex;
 }
 .cell-25 p {
   width: 70%;
+
+  margin-top: 2rem;
 
   color: #151719;
 
@@ -539,10 +531,12 @@
 
 .cell-28 {
   background-color: #FFFFFF;
-  display: none;
+  display: flex;
 }
 .cell-28 p {
   width: 70%;
+
+  margin-bottom: 2rem;
 
   color: #151719;
 
@@ -553,10 +547,12 @@
 
 .cell-29 {
   background-color: #FFFFFF;
-  display: none;
+  display: flex;
 }
 .cell-29 p {
   width: 80%;
+
+  margin: 2rem 0;
 
   color: #151719;
 
@@ -566,7 +562,7 @@
 }
 
 .cell-30 {
-  min-height: 20em;
+  min-height: 10em;
 
   background-image: url(../assets/double-arrows.svg);
   background-repeat: no-repeat;
@@ -576,7 +572,7 @@
 
   background-color: #FFC107;
 
-  display: none;
+  display: flex;
 }
 .cell-30 p {
   width: 70%;
@@ -584,37 +580,41 @@
   color: #151719;
 
   font-family: "PT Sans";
-  font-size: 5.625rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .cell-31 {
-  min-height: 20em;
+  min-height: 10em;
 
   background-color: #EAEAEA;
-  display: none;
+  display: flex;
 }
 .cell-31 p {
-  width: 90%;
+  width: 80%;
 
   color: #151719;
 
   font-family: Arial;
-  font-size: 5rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
 .cell-s-facebook {
   background-color: #3A5998;
+  display: flex;
 }
 .cell-s-vk {
   background-color: #4C75A3;
+  display: flex;
 }
 .cell-s-twitter {
   background-color: #1EA0F1;
+  display: flex;
 }
 .cell-s-odnoklassniki {
   background-color: #F7921E;
+  display: flex;
 }
 
 .cell-s-facebook a,
@@ -631,7 +631,7 @@
 .cell-s-vk a i,
 .cell-s-twitter a i,
 .cell-s-odnoklassniki a i {
-  font-size: 4rem;
+  font-size: 1.5rem;
   color: #ffffff;
 }
 
