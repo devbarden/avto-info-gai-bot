@@ -3,4 +3,6 @@
 @import './base.css';
 @import './grid-areas.css';
 @import url("./small-screen.css") (min-width: 200px);
-@import url("./large-screen.css") (min-width: 950px);
+@import url("./medium-screen.css") (min-width: 550px);
+@import url("./big-screen.css") (min-width: 950px);
+@import url("./large-screen.css") (min-width: 1280px);
